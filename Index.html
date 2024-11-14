@@ -1,1 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced GPS Map</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Leaflet CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+</head>
+<body>
+    <div id="map"></div>
+    <button id="locateButton">Locate Me</button>
+    <input type="text" id="search-input" placeholder="Search for a location">
+    <button id="search-button">Search</button>
+    <div id="compass">Compass: <span id="direction">0°</span></div>
+    <div id="altitude">Altitude: <span id="alt">0 m</span></div>
+    <div id="level">Level: <span id="tiltX">0</span>°, <span id="tiltY">0</span>°</div>
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <script src="https://unpkg.com/leaflet-routing-machine/dist/leaflet-routing-machine.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
 
